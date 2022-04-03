@@ -9,9 +9,6 @@
 </head>
 <body>
 Today's date: <%= (new java.util.Date()).toLocaleString()%> <br> 
-IP : <%
-request.getHeader("rlnclientipaddr");
-%>
 <br>   
 <br> Devops HIT Course
  <br>    Students:
