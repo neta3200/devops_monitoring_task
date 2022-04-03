@@ -13,5 +13,12 @@ IP : <%
 out.print( request.getRemoteAddr() );
 out.print( request.getRemoteHost() );
 %>
+   
+Devops HIT Course
+    Students:
+        Netanel Eiluz 205856354
+        Sharon Guy  316582691
+        Noa Mishraki 206947533
+    
 </body>
 </html>
