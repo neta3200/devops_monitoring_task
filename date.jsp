@@ -8,17 +8,16 @@
 <title>Current Date</title>
 </head>
 <body>
-Today's date: <%= (new java.util.Date()).toLocaleString()%>
+Today's date: <%= (new java.util.Date()).toLocaleString()%> <br> 
 IP : <%
-out.print( request.getRemoteAddr() );
-out.print( request.getRemoteHost() );
+request.getHeader("rlnclientipaddr");
 %>
-   
-Devops HIT Course
-    Students:
-        Netanel Eiluz 205856354
-        Sharon Guy  316582691
-        Noa Mishraki 206947533
+<br>   
+<br> Devops HIT Course
+ <br>    Students:
+  <br>       Netanel Eiluz 205856354
+   <br>      Sharon Guy  316582691
+    <br>     Noa Mishraki 206947533
     
 </body>
 </html>
